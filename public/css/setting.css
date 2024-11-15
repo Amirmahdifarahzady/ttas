@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: yekan , system-ui, -apple-system, sans-serif;
+    text-decoration: none;
+  }
+  
+  body {
+    background: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+    height: 100%;
+  }
+  @font-face {
+    font-family: yekan;
+    src: url(../font/iranyekan/IRANYekanWeb.eot);
+    src: url(../font/iranyekan/IRANYekanWeb.ttf);
+    src: url(../font/iranyekan/IRANYekanWeb.woff);
+    src: url(../font/iranyekan/IRANYekanWeb.woff2);
+  }
